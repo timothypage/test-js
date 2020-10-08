@@ -1,21 +1,21 @@
-const { add2 } = require('./index');
+const { add2 } = require('./index')
 
 describe('add2', () => {
   it('handles positive numbers', () => {
-    const result = add2(2);
+    const result = add2(2)
 
-    expect(result).toEqual(4);
-  });
+    expect(result).toEqual(4)
+  })
 
   it('handles negative numbers', () => {
-    const result = add2(-3);
+    const result = add2(-3)
 
-    expect(result).toEqual(-1);
-  });
+    expect(result).toEqual(-1)
+  })
 
   it('handles strings', () => {
-    const result = add2('the number is ');
+    const result = add2('the number is ')
 
-    expect(result).toEqual('the number is 2');
-  });
-});
+    expect(result).toEqual('the number is 2')
+  })
+})
