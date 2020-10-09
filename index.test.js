@@ -18,4 +18,10 @@ describe('add2', () => {
 
     expect(result).toEqual('the number is 2')
   })
+
+  it('handles four', () => {
+    const result = add2(4)
+
+    expect(result).toEqual('no more!')
+  })
 })
