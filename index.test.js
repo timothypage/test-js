@@ -1,4 +1,5 @@
 const { add2 } = require('./index')
+const { logger } = require('@GeoPlatform/gp-lib')
 
 describe('add2', () => {
   it('handles positive numbers', () => {
@@ -23,5 +24,9 @@ describe('add2', () => {
     const result = add2(4)
 
     expect(result).toEqual('no more!')
+  })
+
+  it('should have gp-lib', () => {
+    expect(logger.log).toBeDefined()
   })
 })

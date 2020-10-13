@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.5.2",
-    "prettier-standard": "^16.4.1"
+    "prettier-standard": "^16.4.1",
+    "@GeoPlatform/gp-lib": "github:GeoPlatform/GP-Lib"
   }
 }
