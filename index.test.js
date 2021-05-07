@@ -19,3 +19,4 @@ describe('add2', () => {
     expect(result).toEqual('the number is 2')
   })
 })
+
